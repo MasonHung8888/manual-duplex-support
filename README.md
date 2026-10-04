@@ -7,6 +7,7 @@
 - `dist/index.html`：產品介紹與跨平台功能
 - `dist/support.html`：客服方式與常見問題
 - `dist/privacy.html`：iPhone、iPad 與 Mac 共用隱私權政策
+- `dist/assets/mac-app-interface.jpg`：Mac 版實際操作介面
 
 客服聯絡人：Mason Hung  
 Email：taijia1025@gmail.com

@@ -60,6 +60,10 @@ h1 { margin: 10px 0 20px; max-width: 760px; font-size: clamp(2.5rem, 6vw, 4.9rem
 .card .icon { display: grid; place-items: center; width: 44px; height: 44px; margin-bottom: 16px; border-radius: 13px; color: var(--blue-dark); background: var(--soft); font-size: 1.25rem; font-weight: 800; }
 .card h3 { margin: 0 0 8px; font-size: 1.15rem; }
 .card p { margin: 0; color: var(--muted); }
+.app-preview { background: linear-gradient(180deg, #eef7ff 0%, #f6f9fc 100%); }
+.product-shot { margin: 0; overflow: hidden; border: 1px solid #c9d9e9; border-radius: 24px; background: var(--surface); box-shadow: 0 22px 60px rgba(28, 78, 128, .16); }
+.product-shot img { display: block; width: 100%; height: auto; }
+.product-shot figcaption { padding: 18px 22px; color: var(--muted); font-size: .95rem; }
 .steps { counter-reset: step; display: grid; gap: 14px; }
 .step { display: grid; grid-template-columns: 48px 1fr; gap: 17px; align-items: start; padding: 20px; border-radius: 18px; background: var(--surface); border: 1px solid var(--line); }
 .step::before { counter-increment: step; content: counter(step); display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; color: white; background: var(--blue); font-weight: 800; }
@@ -100,6 +104,8 @@ details p { margin: 10px 0 0; color: var(--muted); }
   .hero-art img { width: 170px; height: 170px; border-radius: 38px; }
   .features, .trust { grid-template-columns: 1fr; }
   .section { padding: 52px 0; }
+  .product-shot { border-radius: 16px; }
+  .product-shot figcaption { padding: 14px 16px; }
   .footer-row { align-items: flex-start; flex-direction: column; }
   .footer-row nav { margin-left: 0; flex-wrap: wrap; }
 }
